@@ -1,0 +1,9 @@
+# Remover o .php do final das urls #
+
+# Precisar remover o .php dos arquivos também, só nao pode remover o .php dos action em formularios #
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
