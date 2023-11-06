@@ -1,6 +1,6 @@
 # Remover o .php do final das urls #
 
-# Precisar remover o .php dos arquivos também, só nao pode remover o .php dos action em formularios #
+# Precisar remover o .php de dentrp dos href no código também, só nao pode remover o .php dos action em formularios #
 
 Options +FollowSymLinks
 RewriteEngine On
